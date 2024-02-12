@@ -4,7 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
+	"github.com/natividadesusana/ecommerce/goapi/internal/entity"
 	"github.com/natividadesusana/ecommerce/goapi/internal/service"
+	"github.com/go-chi/chi/v5"
 )
 
 type WebCategoryHandler struct {
